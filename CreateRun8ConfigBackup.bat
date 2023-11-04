@@ -3,12 +3,12 @@ REM This script will copy Run-8 V3 spawn points, industry configs, hump configs,
 
 REM The resulting directory tree can then be dragged and dropped into a Run8 Train Simulator V3 directory to update configs from the backup.
 
-REM BarstowYermo, Bakersfield, Cajon, Mojave, Needles, SanBernardino, Seligman, ALine, Mohawk, Selkirk, Waycross, and Roseville route configs will be backed up.  HRS_Southeast, NorthernCA, SelkirkRegion, and SouthernCA region configs will be backed up.
+REM BarstowYermo, Bakersfield, Cajon, Mojave, Needles, SanBernardino, Seligman, ALine, Mohawk, Selkirk, Waycross, Fitzgerald, and Roseville route configs will be backed up.  HRS_Southeast, NorthernCA, SelkirkRegion, and SouthernCA region configs will be backed up.
 
 REM SCRIPT BEGINS BELOW
 
 REM Set the date and time to append to the output folder
-for /f "tokens=3,2,4 delims=/- " %%x in ("%date%") do set d=%%y%%x%%z
+for /f "tokens=3,2,4 delims=/- " %%x in ("%date%") do set d=%%x%%y%%z
 set data=%d%
 for /f "tokens=1,2,3 delims=:. " %%x in ("%time%") do set t=%%x%%y%%z
 set time=%t%
@@ -133,6 +133,14 @@ IF EXIST ".\Run8 Train Simulator V3\Content\V3Routes\SP-UP_RosevilleSub\TrackDat
 
 ) ELSE (
 	echo SP-UP_RosevilleSub: No
+)
+IF EXIST ".\Run8 Train Simulator V3\Content\V3Routes\CSX_Baldwin\TrackDatabase.r8" (
+	echo CSX_Baldwin: Yes
+	md .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_Baldwin
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\CSX_Baldwin\AISpecialLocations.r8" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_Baldwin\AISpecialLocations.r8 >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\CSX_Baldwin\TrainSymbolRoutings.xml" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_Baldwin\TrainSymbolRoutings.xml >nul
+) ELSE (
+	echo CSX_Baldwin: No
 )
 
 echo.
