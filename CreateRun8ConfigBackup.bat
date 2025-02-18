@@ -19,151 +19,151 @@ REM Check that the route/region exists.  If so, make a folder and copy the confi
 
 IF EXIST ".\Run8 Train Simulator V3\Content\V3Routes\BarstowYermo\TrackDatabase.r8" (
 	echo BarstowYermo: Yes
-	md .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\BarstowYermo
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\BarstowYermo\AISpecialLocations.r8" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\BarstowYermo\AISpecialLocations.r8 >nul
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\BarstowYermo\TrainSymbolRoutings.xml" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\BarstowYermo\TrainSymbolRoutings.xml >nul
+	md .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\BarstowYermo
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\BarstowYermo\AISpecialLocations.r8" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\BarstowYermo\AISpecialLocations.r8 >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\BarstowYermo\TrainSymbolRoutings.xml" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\BarstowYermo\TrainSymbolRoutings.xml >nul
 
 ) ELSE (
 	echo BarstowYermo: No
 )
 IF EXIST ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_BakersfieldSub\TrackDatabase.r8" (
 	echo BNSF_Bakersfield: Yes
-	md .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_BakersfieldSub
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_BakersfieldSub\AISpecialLocations.r8" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_BakersfieldSub\AISpecialLocations.r8 >nul
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_BakersfieldSub\TrainSymbolRoutings.xml" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_BakersfieldSub\TrainSymbolRoutings.xml >nul
+	md .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_BakersfieldSub
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_BakersfieldSub\AISpecialLocations.r8" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_BakersfieldSub\AISpecialLocations.r8 >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_BakersfieldSub\TrainSymbolRoutings.xml" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_BakersfieldSub\TrainSymbolRoutings.xml >nul
 
 ) ELSE (
 	echo BNSF_Bakersfield: No
 )
 IF EXIST ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_CajonSub\TrackDatabase.r8" (
 	echo BNSF_CajonSub: Yes
-	md .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_CajonSub
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_CajonSub\AISpecialLocations.r8" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_CajonSub\AISpecialLocations.r8 >nul
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_CajonSub\TrainSymbolRoutings.xml" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_CajonSub\TrainSymbolRoutings.xml >nul
+	md .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_CajonSub
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_CajonSub\AISpecialLocations.r8" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_CajonSub\AISpecialLocations.r8 >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_CajonSub\TrainSymbolRoutings.xml" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_CajonSub\TrainSymbolRoutings.xml >nul
 
 ) ELSE (
 	echo BNSF_CajonSub: No
 )
 IF EXIST ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_MojaveSub\TrackDatabase.r8" (
 	echo BNSF_MojaveSub: Yes
-	md .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_MojaveSub
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_MojaveSub\AISpecialLocations.r8" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_MojaveSub\AISpecialLocations.r8 >nul
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_MojaveSub\TrainSymbolRoutings.xml" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_MojaveSub\TrainSymbolRoutings.xml >nul
+	md .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_MojaveSub
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_MojaveSub\AISpecialLocations.r8" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_MojaveSub\AISpecialLocations.r8 >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_MojaveSub\TrainSymbolRoutings.xml" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_MojaveSub\TrainSymbolRoutings.xml >nul
 
 ) ELSE (
 	echo BNSF_MojaveSub: No
 )
 IF EXIST ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_NeedlesSub\TrackDatabase.r8" (
 	echo BNSF_NeedlesSub: Yes
-	md .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_NeedlesSub
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_NeedlesSub\AISpecialLocations.r8" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_NeedlesSub\AISpecialLocations.r8 >nul
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_NeedlesSub\TrainSymbolRoutings.xml" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_NeedlesSub\TrainSymbolRoutings.xml >nul
+	md .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_NeedlesSub
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_NeedlesSub\AISpecialLocations.r8" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_NeedlesSub\AISpecialLocations.r8 >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_NeedlesSub\TrainSymbolRoutings.xml" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_NeedlesSub\TrainSymbolRoutings.xml >nul
 
 ) ELSE (
 	echo BNSF_NeedlesSub: No
 )
 IF EXIST ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_SanBernardinoSub\TrackDatabase.r8" (
 	echo BNSF_SanBernardinoSub: Yes
-	md .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_SanBernardinoSub
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_SanBernardinoSub\AISpecialLocations.r8" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_SanBernardinoSub\AISpecialLocations.r8 >nul
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_SanBernardinoSub\TrainSymbolRoutings.xml" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_SanBernardinoSub\TrainSymbolRoutings.xml >nul
+	md .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_SanBernardinoSub
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_SanBernardinoSub\AISpecialLocations.r8" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_SanBernardinoSub\AISpecialLocations.r8 >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_SanBernardinoSub\TrainSymbolRoutings.xml" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_SanBernardinoSub\TrainSymbolRoutings.xml >nul
 
 ) ELSE (
 	echo BNSF_SanBernardino: No
 )
 IF EXIST ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_SeligmanSub\TrackDatabase.r8" (
 	echo BNSF_SeligmanSub: Yes
-	md .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_SeligmanSub
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_SeligmanSub\AISpecialLocations.r8" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_SeligmanSub\AISpecialLocations.r8 >nul
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_SeligmanSub\TrainSymbolRoutings.xml" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_SeligmanSub\TrainSymbolRoutings.xml >nul
+	md .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_SeligmanSub
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_SeligmanSub\AISpecialLocations.r8" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_SeligmanSub\AISpecialLocations.r8 >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_SeligmanSub\TrainSymbolRoutings.xml" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_SeligmanSub\TrainSymbolRoutings.xml >nul
 
 ) ELSE (
 	echo BNSF_SeligmanSub: No
 )
 IF EXIST ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_UP_FresnoModesto\TrackDatabase.r8" (
 	echo BNSF_UP_FresnoModesto: Yes
-	md .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_UP_FresnoModesto
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_UP_FresnoModesto\AISpecialLocations.r8" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_UP_FresnoModesto\AISpecialLocations.r8 >nul
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_UP_FresnoModesto\TrainSymbolRoutings.xml" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_UP_FresnoModesto\TrainSymbolRoutings.xml >nul
+	md .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_UP_FresnoModesto
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_UP_FresnoModesto\AISpecialLocations.r8" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_UP_FresnoModesto\AISpecialLocations.r8 >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_UP_FresnoModesto\TrainSymbolRoutings.xml" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\BNSF_UP_FresnoModesto\TrainSymbolRoutings.xml >nul
 ) ELSE (
 	echo BNSF_UP_FresnoModesto: No
 )
 IF EXIST ".\Run8 Train Simulator V3\Content\V3Routes\CSX_ALine\TrackDatabase.r8" (
 	echo CSX_ALine: Yes
-	md .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_ALine
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\CSX_ALine\AISpecialLocations.r8" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_ALine\AISpecialLocations.r8 >nul
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\CSX_ALine\TrainSymbolRoutings.xml" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_ALine\TrainSymbolRoutings.xml >nul
+	md .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_ALine
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\CSX_ALine\AISpecialLocations.r8" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_ALine\AISpecialLocations.r8 >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\CSX_ALine\TrainSymbolRoutings.xml" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_ALine\TrainSymbolRoutings.xml >nul
 
 ) ELSE (
 	echo CSX_ALine: No
 )
 IF EXIST ".\Run8 Train Simulator V3\Content\V3Routes\CSX_Baldwin\TrackDatabase.r8" (
 	echo CSX_Baldwin: Yes
-	md .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_Baldwin
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\CSX_Baldwin\AISpecialLocations.r8" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_Baldwin\AISpecialLocations.r8 >nul
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\CSX_Baldwin\TrainSymbolRoutings.xml" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_Baldwin\TrainSymbolRoutings.xml >nul
+	md .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_Baldwin
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\CSX_Baldwin\AISpecialLocations.r8" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_Baldwin\AISpecialLocations.r8 >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\CSX_Baldwin\TrainSymbolRoutings.xml" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_Baldwin\TrainSymbolRoutings.xml >nul
 ) ELSE (
 	echo CSX_Baldwin: No
 )
 IF EXIST ".\Run8 Train Simulator V3\Content\V3Routes\CSX_Fitzgerald\TrackDatabase.r8" (
 	echo CSX_Fitzgerald: Yes
-	md .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_Fitzgerald
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\CSX_Fitzgerald\AISpecialLocations.r8" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_Fitzgerald\AISpecialLocations.r8 >nul
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\CSX_Fitzgerald\TrainSymbolRoutings.xml" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_Fitzgerald\TrainSymbolRoutings.xml >nul
+	md .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_Fitzgerald
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\CSX_Fitzgerald\AISpecialLocations.r8" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_Fitzgerald\AISpecialLocations.r8 >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\CSX_Fitzgerald\TrainSymbolRoutings.xml" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_Fitzgerald\TrainSymbolRoutings.xml >nul
 
 ) ELSE (
 	echo CSX_Fitzgerald: No
 )
 IF EXIST ".\Run8 Train Simulator V3\Content\V3Routes\CSX_MohawkSub\TrackDatabase.r8" (
 	echo CSX_MohawkSub: Yes
-	md .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_MohawkSub
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\CSX_MohawkSub\AISpecialLocations.r8" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_MohawkSub\AISpecialLocations.r8 >nul
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\CSX_MohawkSub\TrainSymbolRoutings.xml" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_MohawkSub\TrainSymbolRoutings.xml >nul
+	md .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_MohawkSub
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\CSX_MohawkSub\AISpecialLocations.r8" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_MohawkSub\AISpecialLocations.r8 >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\CSX_MohawkSub\TrainSymbolRoutings.xml" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_MohawkSub\TrainSymbolRoutings.xml >nul
 
 ) ELSE (
 	echo CSX_MohawkSub: No
 )
 IF EXIST ".\Run8 Train Simulator V3\Content\V3Routes\CSX_SelkirkTerminal\TrackDatabase.r8" (
 	echo CSX_SelkirkTerminal: Yes
-	md .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_SelkirkTerminal
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\CSX_SelkirkTerminal\AISpecialLocations.r8" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_SelkirkTerminal\AISpecialLocations.r8 >nul
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\CSX_SelkirkTerminal\TrainSymbolRoutings.xml" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_SelkirkTerminal\TrainSymbolRoutings.xml >nul
+	md .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_SelkirkTerminal
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\CSX_SelkirkTerminal\AISpecialLocations.r8" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_SelkirkTerminal\AISpecialLocations.r8 >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\CSX_SelkirkTerminal\TrainSymbolRoutings.xml" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_SelkirkTerminal\TrainSymbolRoutings.xml >nul
 
 ) ELSE (
 	echo CSX_SelkirkTerminal: No
 )
 IF EXIST ".\Run8 Train Simulator V3\Content\V3Routes\CSX_Waycross\TrackDatabase.r8" (
 	echo CSX_Waycross: Yes
-	md .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_Waycross
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\CSX_Waycross\AISpecialLocations.r8" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_Waycross\AISpecialLocations.r8 >nul
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\CSX_Waycross\TrainSymbolRoutings.xml" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_Waycross\TrainSymbolRoutings.xml >nul
+	md .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_Waycross
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\CSX_Waycross\AISpecialLocations.r8" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_Waycross\AISpecialLocations.r8 >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\CSX_Waycross\TrainSymbolRoutings.xml" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_Waycross\TrainSymbolRoutings.xml >nul
 
 ) ELSE (
 	echo CSX_Waycross: No
 )
 IF EXIST ".\Run8 Train Simulator V3\Content\V3Routes\NS_AGS_Phase01\TrackDatabase.r8" (
 	echo NS_AGS_Phase01: Yes
-	md .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\NS_AGS_Phase01
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\NS_AGS_Phase01\AISpecialLocations.r8" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\NS_AGS_Phase01\AISpecialLocations.r8 >nul
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\NS_AGS_Phase01\TrainSymbolRoutings.xml" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\NS_AGS_Phase01\TrainSymbolRoutings.xml >nul
+	md .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\NS_AGS_Phase01
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\NS_AGS_Phase01\AISpecialLocations.r8" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\NS_AGS_Phase01\AISpecialLocations.r8 >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\NS_AGS_Phase01\TrainSymbolRoutings.xml" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\NS_AGS_Phase01\TrainSymbolRoutings.xml >nul
 
 ) ELSE (
 	echo NS_AGS_Phase01: No
 )
 IF EXIST ".\Run8 Train Simulator V3\Content\V3Routes\NS_PittsburghLine_East\TrackDatabase.r8" (
 	echo NS_PittsburghLine_East: Yes
-	md .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\NS_PittsburghLine_East
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\NS_PittsburghLine_East\AISpecialLocations.r8" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\NS_PittsburghLine_East\AISpecialLocations.r8 >nul
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\NS_PittsburghLine_East\TrainSymbolRoutings.xml" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\NS_PittsburghLine_East\TrainSymbolRoutings.xml >nul
+	md .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\NS_PittsburghLine_East
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\NS_PittsburghLine_East\AISpecialLocations.r8" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\NS_PittsburghLine_East\AISpecialLocations.r8 >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\NS_PittsburghLine_East\TrainSymbolRoutings.xml" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\NS_PittsburghLine_East\TrainSymbolRoutings.xml >nul
 
 ) ELSE (
 	echo NS_PittsburghLine_East: No
 )
 IF EXIST ".\Run8 Train Simulator V3\Content\V3Routes\SP-UP_RosevilleSub\TrackDatabase.r8" (
 	echo SP-UP_RosevilleSub: Yes
-	md .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\SP-UP_RosevilleSub
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\SP-UP_RosevilleSub\AISpecialLocations.r8" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\SP-UP_RosevilleSub\AISpecialLocations.r8 >nul
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\SP-UP_RosevilleSub\TrainSymbolRoutings.xml" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\SP-UP_RosevilleSub\TrainSymbolRoutings.xml >nul
+	md .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\SP-UP_RosevilleSub
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\SP-UP_RosevilleSub\AISpecialLocations.r8" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\SP-UP_RosevilleSub\AISpecialLocations.r8 >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\SP-UP_RosevilleSub\TrainSymbolRoutings.xml" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\SP-UP_RosevilleSub\TrainSymbolRoutings.xml >nul
 
 ) ELSE (
 	echo SP-UP_RosevilleSub: No
@@ -174,60 +174,60 @@ echo Backing up your region config files...
 
 IF EXIST ".\Run8 Train Simulator V3\Content\V3Routes\Regions\GulfCoast\WX\WX_Stations.txt" (
 	echo GulfCoast: Yes
-	md .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\GulfCoast
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\GulfCoast\Config.ind" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\GulfCoast\Config.ind >nul
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\GulfCoast\Hump.r8" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\GulfCoast\Hump.r8 >nul
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\GulfCoast\Traffic.r8" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\GulfCoast\Traffic.r8 >nul
+	md .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\GulfCoast
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\GulfCoast\Config.ind" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\GulfCoast\Config.ind >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\GulfCoast\Hump.r8" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\GulfCoast\Hump.r8 >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\GulfCoast\Traffic.r8" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\GulfCoast\Traffic.r8 >nul
 
 ) ELSE (
 	echo GulfCoast: No
 )
 IF EXIST ".\Run8 Train Simulator V3\Content\V3Routes\Regions\HRS_Southeast\WX\WX_Stations.txt" (
 	echo HRS_Southeast: Yes
-	md .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\HRS_Southeast
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\HRS_Southeast\Config.ind" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\HRS_Southeast\Config.ind >nul
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\HRS_Southeast\WaycrossConfig.ind" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\HRS_Southeast\WaycrossConfig.ind >nul
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\HRS_Southeast\Hump.r8" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\HRS_Southeast\Hump.r8 >nul
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\HRS_Southeast\Traffic.r8" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\HRS_Southeast\Traffic.r8 >nul
+	md .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\HRS_Southeast
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\HRS_Southeast\Config.ind" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\HRS_Southeast\Config.ind >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\HRS_Southeast\WaycrossConfig.ind" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\HRS_Southeast\WaycrossConfig.ind >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\HRS_Southeast\Hump.r8" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\HRS_Southeast\Hump.r8 >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\HRS_Southeast\Traffic.r8" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\HRS_Southeast\Traffic.r8 >nul
 
 ) ELSE (
 	echo HRS_Southeast: No
 )
 IF EXIST ".\Run8 Train Simulator V3\Content\V3Routes\Regions\NorthernCA\WX\WX_Stations.txt" (
 	echo NorthernCA: Yes
-	md .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\NorthernCA
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\NorthernCA\Config.ind" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\NorthernCA\Config.ind >nul
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\NorthernCA\Hump.r8" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\NorthernCA\Hump.r8 >nul
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\NorthernCA\Traffic.r8" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\NorthernCA\Traffic.r8 >nul
+	md .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\NorthernCA
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\NorthernCA\Config.ind" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\NorthernCA\Config.ind >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\NorthernCA\Hump.r8" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\NorthernCA\Hump.r8 >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\NorthernCA\Traffic.r8" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\NorthernCA\Traffic.r8 >nul
 
 ) ELSE (
 	echo NorthernCA: No
 )
 IF EXIST ".\Run8 Train Simulator V3\Content\V3Routes\Regions\Pennsylvania\WX\WX_Stations.txt" (
 	echo Pennsylvania: Yes
-	md .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\Pennsylvania
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\Pennsylvania\Config.ind" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\Pennsylvania\Config.ind >nul
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\Pennsylvania\Hump.r8" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\Pennsylvania\Hump.r8 >nul
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\Pennsylvania\Traffic.r8" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\Pennsylvania\Traffic.r8 >nul
+	md .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\Pennsylvania
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\Pennsylvania\Config.ind" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\Pennsylvania\Config.ind >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\Pennsylvania\Hump.r8" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\Pennsylvania\Hump.r8 >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\Pennsylvania\Traffic.r8" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\Pennsylvania\Traffic.r8 >nul
 
 ) ELSE (
 	echo Pennsylvania: No
 )
 IF EXIST ".\Run8 Train Simulator V3\Content\V3Routes\Regions\SelkirkRegion\WX\WX_Stations.txt" (
 	echo SelkirkRegion: Yes
-	md .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\SelkirkRegion
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\SelkirkRegion\Hump.r8" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\SelkirkRegion\Hump.r8 >nul
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\SelkirkRegion\Traffic.r8" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\SelkirkRegion\Traffic.r8 >nul
+	md .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\SelkirkRegion
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\SelkirkRegion\Hump.r8" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\SelkirkRegion\Hump.r8 >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\SelkirkRegion\Traffic.r8" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\SelkirkRegion\Traffic.r8 >nul
 
 ) ELSE (
 	echo SelkirkRegion: No
 )
 IF EXIST ".\Run8 Train Simulator V3\Content\V3Routes\Regions\SouthernCA\WX\WX_Stations.txt" (
 	echo SouthernCA: Yes
-	md .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\SouthernCA
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\SouthernCA\Config.ind" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\SouthernCA\Config.ind >nul
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\SouthernCA\Hump.r8" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\SouthernCA\Hump.r8 >nul
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\SouthernCA\Traffic.r8" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\SouthernCA\Traffic.r8 >nul
+	md .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\SouthernCA
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\SouthernCA\Config.ind" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\SouthernCA\Config.ind >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\SouthernCA\Hump.r8" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\SouthernCA\Hump.r8 >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\Regions\SouthernCA\Traffic.r8" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\Regions\SouthernCA\Traffic.r8 >nul
 
 ) ELSE (
 	echo SouthernCA: No
