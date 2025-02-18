@@ -6,5 +6,4 @@ for easy backup or transfer.  Place it in your Run8Studios directory and run it 
 
 The resulting directory tree can then be dragged and dropped into a Run8 Train Simulator V3 directory to update configs from the backup.
 
-BarstowYermo, Bakersfield, Cajon, Mojave, Needles, SanBernardino, Seligman, ALine, Mohawk, Selkirk, Waycross, Fitzgerald, and Roseville route configs will be backed up.
-HRS_Southeast, NorthernCA, SelkirkRegion, and SouthernCA region configs will be backed up.
+Please read the source code to see which routes and regions will be backed up.  As of the last update to the readme file, all routes except Savannah and all regions will be backed up.
