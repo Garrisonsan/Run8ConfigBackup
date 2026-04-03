@@ -88,6 +88,14 @@ IF EXIST ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_UP_FresnoModesto\Track
 ) ELSE (
 	echo BNSF_UP_FresnoModesto: No
 )
+IF EXIST ".\Run8 Train Simulator V3\Content\V3Routes\UP_FresnoSub_South\TrackDatabase.r8" (
+	echo UP_FresnoSub_South: Yes
+	md .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\UP_FresnoSub_South
+		copy ".\Run8 Train Simulator V3\Content\V3Routes\UP_FresnoSub_South\AISpecialLocations.r8" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\UP_FresnoSub_South\AISpecialLocations.r8 >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\UP_FresnoSub_South\TrainSymbolRoutings.xml" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\UP_FresnoSub_South\TrainSymbolRoutings.xml >nul
+) ELSE (
+	echo UP_FresnoSub_South: No
+)
 IF EXIST ".\Run8 Train Simulator V3\Content\V3Routes\CSX_ALine\TrackDatabase.r8" (
 	echo CSX_ALine: Yes
 	md .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\CSX_ALine
