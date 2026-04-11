@@ -242,6 +242,6 @@ IF EXIST ".\Run8 Train Simulator V3\Content\V3Routes\Regions\SouthernCA\WX\WX_St
 )
 
 echo.
-echo This work is copyright 2025, Garrisonsan, and is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+echo This work is copyright 2026, Garrisonsan, and is licensed under the MIT License. To view a copy of this license, visit https://github.com/Garrisonsan/Run8ConfigBackup/blob/main/LICENSE
 echo.
 pause
