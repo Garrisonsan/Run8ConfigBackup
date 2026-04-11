@@ -90,9 +90,9 @@ IF EXIST ".\Run8 Train Simulator V3\Content\V3Routes\BNSF_UP_FresnoModesto\Track
 )
 IF EXIST ".\Run8 Train Simulator V3\Content\V3Routes\UP_FresnoSub_South\TrackDatabase.r8" (
 	echo UP_FresnoSub_South: Yes
-	md .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\UP_FresnoSub_South
-		copy ".\Run8 Train Simulator V3\Content\V3Routes\UP_FresnoSub_South\AISpecialLocations.r8" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\UP_FresnoSub_South\AISpecialLocations.r8 >nul
-	copy ".\Run8 Train Simulator V3\Content\V3Routes\UP_FresnoSub_South\TrainSymbolRoutings.xml" .\WEST_Run8ConfigBackup_%d%-%t%\Content\V3Routes\UP_FresnoSub_South\TrainSymbolRoutings.xml >nul
+	md .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\UP_FresnoSub_South
+		copy ".\Run8 Train Simulator V3\Content\V3Routes\UP_FresnoSub_South\AISpecialLocations.r8" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\UP_FresnoSub_South\AISpecialLocations.r8 >nul
+	copy ".\Run8 Train Simulator V3\Content\V3Routes\UP_FresnoSub_South\TrainSymbolRoutings.xml" .\Run8ConfigBackup_%d%-%t%\Content\V3Routes\UP_FresnoSub_South\TrainSymbolRoutings.xml >nul
 ) ELSE (
 	echo UP_FresnoSub_South: No
 )
